@@ -147,7 +147,7 @@
         android:backgroundTint="@color/black"
         android:textSize="16sp"
         android:textStyle="italic"
-        android:text="Exit App" />
+        android:text="Exit App. Thank You For Spending Time With Us" />
 
 
 </LinearLayout>

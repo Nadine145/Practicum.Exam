@@ -19,7 +19,8 @@
         android:padding="5dp"
         android:textStyle="bold"
         android:text="Music Playlist "
-        android:textColor="@color/black"
+        android:background="#F4E3AD"
+        android:textColor="@color/white"
         android:textSize="19sp"/>
 
     <TextView
@@ -31,6 +32,7 @@
         android:padding="5dp"
         android:textStyle="bold"
         android:text="Add Music To Your Booming Playlist!"
+        android:background="#FFFFFF"
         android:textColor="@color/black"
         android:textSize="19sp"/>
 
@@ -40,6 +42,7 @@
         android:layout_height="wrap_content"
         android:text="Song Title"
         android:textSize="16sp"
+        android:background="#FFFFFF"
         android:textColor="@color/black"
         android:layout_marginBottom="8dp"/>
 
@@ -50,6 +53,7 @@
         android:hint="Enter The Title Of The Song"
         android:padding="12dp"
         android:layout_marginBottom="16dp"
+        android:background="#FFFFFF"
         android:textColor="@color/black"
         android:textColorHint="#B1AEAE"/>
 
@@ -58,6 +62,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Atrist's Name"
+        android:background="#FFFFFF"
         android:textSize="16sp"
         android:textColor="@color/black"
         android:layout_marginBottom="8dp"/>
@@ -69,6 +74,7 @@
         android:hint="Enter The Name Of The Artist"
         android:padding="12dp"
         android:layout_marginBottom="16dp"
+        android:background="#FFFFFF"
         android:textColor="@color/black"
         android:textColorHint="#B1AEAE"/>
 
@@ -79,6 +85,7 @@
         android:text="Rating (1-5)"
         android:textSize="16sp"
         android:textColor="@color/black"
+        android:background="#FFFFFF"
         android:layout_marginBottom="8dp"/>
 
     <EditText
@@ -88,8 +95,9 @@
         android:hint="Enter The Rating Of The Song"
         android:padding="12dp"
         android:layout_marginBottom="16dp"
+        android:background="#FFFFFF"
         android:textColor="@color/black"
-        android:textColorHint="#B1AEAE"/>
+        android:textColorHint="#DBDBDB"/>
 
     <TextView
         android:id="@+id/textView6"
@@ -97,6 +105,7 @@
         android:layout_height="wrap_content"
         android:text="Comments"
         android:textSize="16sp"
+        android:background="#FFFFFF"
         android:textColor="@color/black"
         android:layout_marginBottom="8dp"/>
 
@@ -107,6 +116,7 @@
         android:hint="Enter A Comment For Your Favorite Song"
         android:padding="12dp"
         android:layout_marginBottom="16dp"
+        android:background="#FFFFFF"
         android:textColor="@color/black"
         android:textColorHint="#B1AEAE"/>
 
@@ -123,17 +133,17 @@
         android:layout_width="match_parent"
         android:layout_height="56dp"
         android:layout_marginBottom="12dp"
-        android:backgroundTint="@color/black"
+        android:backgroundTint="#F4E3AD"
         android:textSize="16sp"
         android:textStyle="italic"
-        android:text="Add Song" />
+        android:text="Add Song To Playlist" />
 
     <Button
         android:id="@+id/button2"
         android:layout_width="match_parent"
         android:layout_height="56dp"
         android:layout_marginBottom="12dp"
-        android:backgroundTint="@color/black"
+        android:backgroundTint="#F4E3AD"
         android:textSize="16sp"
         android:textStyle="italic"
         android:text="View Song List" />
@@ -144,7 +154,7 @@
         android:layout_width="match_parent"
         android:layout_height="56dp"
         android:layout_marginBottom="12dp"
-        android:backgroundTint="@color/black"
+        android:backgroundTint="#F4E3AD"
         android:textSize="16sp"
         android:textStyle="italic"
         android:text="Exit App. Thank You For Spending Time With Us" />

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:padding="16dp"
+android:background="@drawable/img">
+
+<!-- Header -->
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_marginBottom="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="📋"
+        android:textSize="36sp"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Detailed View"
+        android:textSize="22sp"
+        android:textColor="@color/white"
+        android:background="#F4E3AD"
+        android:textStyle="bold" />
+
+</LinearLayout>
+
+<!-- Control Buttons -->
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:layout_marginBottom="20dp">
+
+    <Button
+        android:id="@+id/btnDisplaySongs"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_weight="1"
+        android:text="🎵 Show Songs"
+        android:textSize="14sp"
+        android:textColor="@color/black"
+        android:backgroundTint="#F4E3AD"
+        android:layout_marginEnd="8dp"
+        android:elevation="2dp" />
+
+    <Button
+        android:id="@+id/btnCalculateAverage"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_weight="1"
+        android:text="⭐ Average"
+        android:textSize="14sp"
+        android:textColor="@color/black"
+        android:backgroundTint="#F4E3AD"
+        android:layout_marginStart="8dp"
+        android:elevation="2dp" />
+
+</LinearLayout>
+
+<!-- Content Area -->
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:orientation="vertical">
+
+    <!-- Song List Display -->
+    <TextView
+        android:id="@+id/tvSongList"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Click 'Show Songs' to display your playlist"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:background="#F4E3AD"
+        android:padding="16dp"
+        android:layout_marginBottom="16dp"
+        android:scrollbars="vertical"
+        android:gravity="top"
+        android:elevation="2dp" />
+
+    <!-- Average Rating Display -->
+    <TextView
+        android:id="@+id/tvAverageRating"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Click 'Average' to calculate playlist rating"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:background="#F4E3AD"
+        android:padding="16dp"
+        android:gravity="center"
+        android:minHeight="80dp"
+        android:elevation="2dp" />
+
+</LinearLayout>
+
+<!-- Return Button -->
+<Button
+    android:id="@+id/btnReturnToMain"
+    android:layout_width="match_parent"
+    android:layout_height="56dp"
+    android:text="🔙 Return to Main"
+    android:textSize="18sp"
+    android:textColor="@color/white"
+    android:backgroundTint="#F4E3AD"
+    android:layout_marginTop="20dp"
+    android:elevation="4dp" />
+
+</LinearLayout>

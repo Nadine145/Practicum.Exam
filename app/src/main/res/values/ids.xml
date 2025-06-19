@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="btnExit" type="id" />
+    <item name="btnViewDetails" type="id" />
+    <item name="btnAddToPlaylist" type="id" />
+    <item name="tvSongList" type="id" />
+    <item name="tvAverageRating" type="id" />
+    <item name="btnDisplaySongs" type="id" />
+    <item name="btnCalculateAverage" type="id" />
+    <item name="btnReturnToMain" type="id" />
+    <item name="button1" type="id" />
+    <item name="button2" type="id" />
+    <item name="button3" type="id" />
+</resources>

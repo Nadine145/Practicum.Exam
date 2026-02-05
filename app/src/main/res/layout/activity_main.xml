@@ -6,19 +6,21 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@drawable/img"
     tools:context=".MainActivity">
 
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/textView1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="24dp"
         android:gravity="center"
         android:padding="5dp"
         android:textStyle="bold"
-        android:text="Music Playlist"
-        android:textColor="@color/black"
+        android:text="Music Playlist "
+        android:background="#F4E3AD"
+        android:textColor="@color/white"
         android:textSize="19sp"/>
 
     <TextView
@@ -29,67 +31,133 @@
         android:gravity="center"
         android:padding="5dp"
         android:textStyle="bold"
-        android:text="Add Music To Your Booming Playlist"
+        android:text="Add Music To Your Booming Playlist!"
+        android:background="#FFFFFF"
         android:textColor="@color/black"
         android:textSize="19sp"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Song Title"
+        android:textSize="16sp"
+        android:background="#FFFFFF"
+        android:textColor="@color/black"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/editTextItemName"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Enter The Title Of The Song"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp"
+        android:background="#FFFFFF"
+        android:textColor="@color/black"
+        android:textColorHint="#B1AEAE"/>
 
     <TextView
         android:id="@+id/textView4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="TextView" />
+        android:text="Atrist's Name"
+        android:background="#FFFFFF"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:layout_marginBottom="8dp"/>
 
     <EditText
+        android:id="@+id/editTextArtistName"
         android:layout_width="match_parent"
         android:layout_height="48dp"
+        android:hint="Enter The Name Of The Artist"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp"
+        android:background="#FFFFFF"
+        android:textColor="@color/black"
+        android:textColorHint="#B1AEAE"/>
 
     <TextView
         android:id="@+id/textView5"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="TextView" />
+        android:text="Rating (1-5)"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:background="#FFFFFF"
+        android:layout_marginBottom="8dp"/>
 
     <EditText
+        android:id="@+id/editTextRating"
         android:layout_width="match_parent"
         android:layout_height="48dp"
+        android:hint="Enter The Rating Of The Song"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp"
+        android:background="#FFFFFF"
+        android:textColor="@color/black"
+        android:textColorHint="#DBDBDB"/>
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/textView6"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="TextView" />
+        android:text="Comments"
+        android:textSize="16sp"
+        android:background="#FFFFFF"
+        android:textColor="@color/black"
+        android:layout_marginBottom="8dp"/>
 
     <EditText
+        android:id="@+id/editTextComment"
         android:layout_width="match_parent"
         android:layout_height="48dp"
+        android:hint="Enter A Comment For Your Favorite Song"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp"
+        android:background="#FFFFFF"
+        android:textColor="@color/black"
+        android:textColorHint="#B1AEAE"/>
 
-    <TextView
-        android:id="@+id/textView5"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="TextView" />
+        android:orientation="vertical"
+        android:layout_marginTop="16dp"/>
 
-    <EditText
+
+
+    <Button
+        android:id="@+id/button1"
         android:layout_width="match_parent"
-        android:layout_height="48dp"
+        android:layout_height="56dp"
+        android:layout_marginBottom="12dp"
+        android:backgroundTint="#F4E3AD"
+        android:textSize="16sp"
+        android:textStyle="italic"
+        android:text="Add Song To Playlist" />
 
     <Button
         android:id="@+id/button2"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Button" />
+        android:layout_height="56dp"
+        android:layout_marginBottom="12dp"
+        android:backgroundTint="#F4E3AD"
+        android:textSize="16sp"
+        android:textStyle="italic"
+        android:text="View Song List" />
+
 
     <Button
         android:id="@+id/button3"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Button" />
-
-    <Button
-        android:id="@+id/button4"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Button" />
+        android:layout_height="56dp"
+        android:layout_marginBottom="12dp"
+        android:backgroundTint="#F4E3AD"
+        android:textSize="16sp"
+        android:textStyle="italic"
+        android:text="Exit App. Thank You For Spending Time With Us" />
 
 
 </LinearLayout>
